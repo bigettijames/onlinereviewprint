@@ -846,4 +846,11 @@ For information about how to enable cookies, see the Help for your Web browser.<
       return false;
     }
   };
+<script>
+  document.onkeydown = function(e) {
+    if (e.ctrlKey && e.keyCode === 85) {
+      return false;
+    }
+  };
 </script>
+<body oncontextmenu="return false;"></body>
